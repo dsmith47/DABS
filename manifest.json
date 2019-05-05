@@ -1,0 +1,25 @@
+{
+"manifest_version": 2,
+
+"name":"dabs>",
+"description":"Doug's Attempt at a Browser Shell",
+"version":"0.0.0.1",
+
+"omnibox":{"keyword": ";"},
+"icons":{
+  "16": "icons/icon.png"
+},
+
+"background": {
+  "persistent":false,
+    "scripts": [
+      "src/background.js",
+      "src/modules/calendar.js",
+      "src/modules/drive.js"
+    ]
+},
+
+"permissions":[
+  "tabs"
+]
+}
