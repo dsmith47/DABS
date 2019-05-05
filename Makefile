@@ -1,4 +1,5 @@
-# Licensed under GPL-3.0-or-later
+# Copyright (C) 2019 Douglas J. Smith
+# Licensed under GNU GPL-3.0-or-later
 
 MODULE_DIR=src/modules
 
