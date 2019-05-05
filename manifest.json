@@ -15,7 +15,13 @@
     "scripts": [
       "src/background.js",
       "src/modules/calendar.js",
-      "src/modules/drive.js"
+      "src/modules/drive.js",
+      "src/modules/google.js",
+      "src/modules/hangouts.js",
+      "src/modules/mail.js",
+      "src/modules/play.js",
+      "src/modules/wikipedia.js",
+      "src/modules/youtube.js"
     ]
 },
 
