@@ -1,8 +1,14 @@
 # DABS
 Doug's Attempt at a Browser Shell
 
-Control your browser entirely with shell commands.
+DABS was inspired by a desre to control the browser entirely with shell commands,
+but it isn't quite correct ot think of it as a shell script like BASH. Rather, it's
+more like the Vim command interface: where users enter commnds as shortcuts for common
+tasks that would take too long to do using only the core functionality. However,
+where vim focuses on commands that make editting text easier, DABS commands optimize
+changing browser settings and browser navigation.
 
+![DABS shell prompt](images/dabs-prompt.png)
 
 * [Installing DABS](installing-dabs)
 * [Using DABS](#using-dabs)
