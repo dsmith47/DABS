@@ -4,7 +4,9 @@ Doug's Attempt at a Browser Shell
 Control your browser entirely with shell commands.
 
 
-[Modifying DABS](#Modifying)
+* [Installing DABS](installing-dabs)
+* [Using DABS](#using-dabs)
+* [Modifying DABS](#modifying-dabs)
 
 ## Installing DABS
 
@@ -32,8 +34,10 @@ However, DABS is configured to be modular, so we hope you stick around
 and keep the shell growing.
 
 If you want to add new functionality to DABS in your own utility,
-look at [Creating a DABS Module](#Creating a DABS Module)
+look at [Creating a DABS Module](#creating-a-dabs-module)
 
+If you want to make contributions outside of module creation, look
+at [Changing the DABS Core](#changing-the-dabs-core)
 
 ### Creating a DABS Module
 
