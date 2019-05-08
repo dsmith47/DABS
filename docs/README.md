@@ -4,7 +4,7 @@ Doug's Attempt at a Browser Shell
 Control your browser entirely with shell commands.
 
 
-[Modifying DABS](#Modifying DABS)
+[Modifying DABS](#Modifying)
 
 ## Installing DABS
 
