@@ -13,7 +13,6 @@
 "background": {
   "persistent":false,
     "scripts": [
-      "src/background.js",
       {{MODULE_SCRIPTS}}
     ]
 },

@@ -3,7 +3,7 @@
 
 MODULE_DIR=src/modules
 
-ALL_PFLAGS=tabs
+ALL_PFLAGS=
 
-all: ${MODULE_DIR}/drive.js ${MODULE_DIR}/calendar.js
+all: $(wildcard ${MODULE_DIR}/*.js )
 	sh configure.sh $^ -p ${ALL_PFLAGS}

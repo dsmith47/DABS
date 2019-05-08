@@ -10,6 +10,23 @@ Control your browser entirely with shell commands.
 
 ## Installing DABS
 
+Because DABS is a chrome extension, it will need to be installed from 
+a manifest.json file as per the
+[Chrome Developer Documentation](https://developer.chrome.com/extensions/external_extensions)
+
+But before you go through all the trouble, why not configure DABS to
+run the way you want it, without any of the extraneous junk?
+
+In the top level of the documents there is a script called configure.sh
+that will write a custom manifest.json for you.
+Just list off the locations of all the module scripts you want to
+include, then all of the permssions those scripts will need followed
+by the `-p` flag.
+
+If script configuration feels too daunting, there is also a Makefile
+whose recipes will make some different configurations of DABS for you.
+
+
 ## Using DABS
 
 DABS turns your browser's address bar into a shell input. Just start
