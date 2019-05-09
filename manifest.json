@@ -23,7 +23,8 @@
 "src/modules/calendar.js",
 "src/modules/mail.js",
 "src/modules/play.js",
-"src/modules/youtube.js"
+"src/modules/youtube.js",
+      "src/core.js"
     ]
 },
 
